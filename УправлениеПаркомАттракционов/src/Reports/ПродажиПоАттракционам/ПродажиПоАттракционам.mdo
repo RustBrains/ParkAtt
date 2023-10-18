@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7cc10708-94bb-487a-a2fd-826acbd54b10">
+  <producedTypes>
+    <objectType typeId="305cd2f0-fc74-4675-a41c-b2b163bbe702" valueTypeId="46da9c90-a785-445b-940e-d1cd65807509"/>
+    <managerType typeId="43464d57-6d97-4410-b5cb-4b7c452c39aa" valueTypeId="d1c93dd7-1fd1-4706-9bf3-0a20dd7aee1c"/>
+  </producedTypes>
+  <name>ПродажиПоАттракционам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи по аттракционам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ПродажиПоАттракционам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="9ab077f2-e464-47ce-a0c6-aecc9a5584be">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

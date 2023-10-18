@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a0ddce9-6b41-4925-ab43-60aa3764918c">
+  <producedTypes>
+    <selectionType typeId="90220c7e-6a23-4643-9939-74f7ec6d2a8b" valueTypeId="10e51cf7-4ff4-43c0-a7cf-7195b624d13e"/>
+    <listType typeId="de6944a8-3af2-46fa-b5b7-c7e2d0cc0448" valueTypeId="37918723-7906-484e-88f8-768c672d50e4"/>
+    <managerType typeId="3e32a0fa-4e60-4fce-a470-b7e05633f7df" valueTypeId="7ac6ac67-5e4f-43b5-b418-3a8aa1670edb"/>
+    <recordSetType typeId="6c8a1778-9acd-4f01-a025-de38163e1db5" valueTypeId="1f88c034-e4a8-402c-bdfc-9ecf00d25168"/>
+    <recordKeyType typeId="03a28bdd-aa56-418c-bf28-b3fccb4e4285" valueTypeId="2a290ab3-28b6-474c-a89d-a26671d802f7"/>
+    <recordType typeId="af7bd714-450a-412d-a13f-261ca090008c" valueTypeId="5a7b2657-197d-4b9a-b539-6b26d250dffb"/>
+  </producedTypes>
+  <name>АктивныеПосещения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Активные посещения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="f701fa2e-ae73-4e24-8288-0d9bd5281a2e">
+    <name>КоличествоПосещений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество посещений</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="9fc8efd6-426f-422f-a9e7-a497984edfdf">
+    <name>Основание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="f6e4917d-8ffe-4b86-b3ae-47d3d33604d0">
+    <name>Аттракцион</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аттракцион</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
